@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/my_fragment_color"
+    android:orientation="vertical"
+    tools:context=".SimpleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="@dimen/titulos"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonpeli1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pelicula1"/>
+        <TextView
+            android:id="@+id/tvpelicula1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contador1"
+            android:textSize="@dimen/contador"/>
+        <Button
+            android:id="@+id/buttonpeli2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pelicula2"
+            android:layout_marginLeft="@dimen/botonboton"/>
+        <TextView
+            android:id="@+id/tvpelicula2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contador2"
+            android:textSize="@dimen/contador"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/fragment_resultadovoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/conteovotos"
+        android:textSize="@dimen/titulos"/>
+
+    <Button
+        android:id="@+id/btnresultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"/>
+
+</LinearLayout>

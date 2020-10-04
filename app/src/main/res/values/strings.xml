@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AplicacionPeliculaVotos</string>
+
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="yes_message">ARTICULO: Me gusta</string>
+    <string name="no_message">ARTICULO: Gracias</string>
+    <string name="question_article">¿Te gusto el articulo?</string>
+
+    <string name="open">Abrir Votación</string>
+    <string name="cerrar">Close</string>
+
+    <string name="exception_message">Es necesario implementar la interfaz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Encuesta de Películas</string>
+    <string name="open_txt">Iniciar</string>
+    <string name="close">Cerrar Votación</string>
+
+    <string name="pelicula1">PELÍCULA 1</string>
+    <string name="pelicula2">PELÍCULA 2</string>
+    <string name="contador1">0</string>
+    <string name="contador2">0</string>
+
+    <string name="votacion">VOTACIÓN</string>
+
+    <string name="conteovotos">Conteo de Votos</string>
+
+    <string name="resultado">RESULTADO</string>
+
+
+
+
+</resources>
